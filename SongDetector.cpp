@@ -13,7 +13,7 @@ using namespace Windows::Media::Control;
 using namespace Windows::Foundation;
 
 std::string getCurrentMediaInfo() {
-    std::string result = "Çalan medya bulunamadı";
+    std::string result = "Playing media not found";
     try {
         std::thread t([&result]() {
             try {
